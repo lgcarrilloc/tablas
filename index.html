@@ -12,7 +12,16 @@
     </header>
     <main>
         <h1>Tabla de multiplicar</h1>
+        <p class="instrucciones">Escriba un número y presione el botón <strong>PROBAR</strong> para mostrar
+        la tabla de multiplicar correspondiente</p>
+        
+    <div class="entrada">
+        <label for="numero-tabla">Número de la tabla</label>
+        <input type="number" id="numero-tabla" placeholder="Ejemplo: 8" min="1">
+        <small class="ayuda"> Ingrese un número entero (por ejemplo: 3, 5 u 8)</small>
+    </div>
         <div class="tabla" id="contenedor-tabla">
+            <p class="mensaje-inicial">Aquí se mostrará la tabla de multiplicar</p>
         </div>
     </main>
     <footer>
